@@ -1,0 +1,136 @@
+.about-container {
+    margin-top: 2rem;
+    }
+    
+    .about-heading {
+      color: purple;
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+    
+    .about-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .about-image {
+      height: auto;
+      width: 25vw;
+    }
+    
+    .about-details {
+      flex: 1;
+      margin-left: 50px;
+    }
+  
+   
+    
+    .about-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .about-role {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .about-email {
+      font-size: 16px;
+    }
+   
+    .about-description-heading {
+      border-bottom: .4rem solid rgb(179, 179, 217);
+      margin-top: 20px;
+    }
+    
+    .about-description-text {
+      text-align: center;
+      font-size: clamp(10px,1.5vw,30px );
+      font-weight: 700;
+      padding: 1rem;
+      color: rgb(53, 52, 52);
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .about-skills-heading {
+      margin-top: 50px;
+      font-weight: 800;
+      text-align: center;
+    }
+    
+    .about-skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .about-skills-list button {
+      margin: 5px;
+    }
+  
+  
+    .boxes{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+  
+      align-items: center;
+    }
+    
+  
+    .boxes h1{
+      font-size: 5vw;
+      margin-top: 2rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: gray;
+      font-weight: 700;
+    }
+  
+    .box-container{
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      padding: 5rem;
+      align-items: center;
+   width: auto;
+      justify-content: space-between;
+    }
+  
+  
+    .box-container div{
+  
+      height: 9rem;
+      border-radius: 10%;
+    
+  flex-direction: column;
+  margin: .3rem;
+  flex: 1 1 200px   ;
+  background-color: yellow;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+    }
+  
+    span{
+      display: block;
+      font-weight: 700;
+      font-size: clamp(10px,2vw,20px);
+    
+    }
+  
+  
+    .experience{
+      font-size: clamp(8px,2vw,30px);
+      color: gray;
+      font-weight: 600;
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+    }
