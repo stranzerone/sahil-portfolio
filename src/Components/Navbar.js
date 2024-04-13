@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center ">
           <Link to="/" className="text-3xl font-extrabold tracking-tight">
             Sahil...
           </Link>
@@ -31,36 +31,78 @@ export default function Navbar() {
           <div
             className={`${
               isOpen ? 'block' : 'hidden'
-            } lg:flex lg:flex-row space-x-4`}
+            } lg:flex lg:flex-row space-x-4  hidden md-block`}
           >
             <Link
               to="/"
               onClick={() => scrollToSection('home')}
-              className="text-lg font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110  hover:border-b-2 hover:border-b-yellow-700  "
+              className="text-lg font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110 hover:border-b-2 hover:border-b-yellow-700"
             >
               Home
             </Link>
             <button
               onClick={() => scrollToSection('skills')}
-              className="text-lg hover:border-b-2 hover:border-b-yellow-700  font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+              className="text-lg hover:border-b-2 hover:border-b-yellow-700 font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
             >
               About
             </button>
             <Link
               to="/"
               onClick={() => scrollToSection('projects')}
-              className="text-lg hover:border-b-2 hover:border-b-yellow-700  font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+              className="text-lg hover:border-b-2 hover:border-b-yellow-700 font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
             >
               Projects
             </Link>
             <Link
               to="/"
               onClick={() => scrollToSection('contact')}
-              className="text-lg hover:border-b-2 hover:border-b-yellow-700  font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+              className="text-lg hover:border-b-2 hover:border-b-yellow-700 font-semibold hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
             >
               Connect
             </Link>
           </div>
+        </div>
+        {/* Responsive Menu */}
+        <div className={`${isOpen ? 'block' : 'hidden'} lg:hidden mt-4`}>
+          <Link
+            to="/"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection('home');
+            }}
+            className="block text-lg font-semibold mb-2 hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            Home
+          </Link>
+          <button
+            onClick={() => {
+              toggleMenu();
+              scrollToSection('skills');
+            }}
+            className="block text-lg font-semibold mb-2 hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            About
+          </button>
+          <Link
+            to="/"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection('projects');
+            }}
+            className="block text-lg font-semibold mb-2 hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            Projects
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection('contact');
+            }}
+            className="block text-lg font-semibold mb-2 hover:text-gray-300 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            Connect
+          </Link>
         </div>
       </div>
     </nav>
