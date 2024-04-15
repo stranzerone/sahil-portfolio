@@ -36,7 +36,7 @@ const Footer = () => {
               <AiFillGithub className="text-xl" />
             </a>
             <a
-              href="www.linkedin.com/in/sahil-mulani-9a4361239"
+              href="https://linkedin.com/in/sahil-mulani-9a4361239"
               className="text-blue-400 hover:text-blue-500 transition duration-300"
               target="_blank"
               rel="noopener noreferrer"

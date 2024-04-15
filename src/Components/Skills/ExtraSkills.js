@@ -19,7 +19,7 @@ export default function About() {
 
       <div className='mt-12 text-center'>
         <h1 className='text-purple-700 text-4xl font-bold'>Experience</h1>
-        <h2 className='text-lg font-semibold mt-4 text-gray-600'>Full stack Developer | 2 months | HashedBit Innovation</h2>
+        <h2 className='text-lg font-semibold mt-4 text-gray-600'>Full stack Developer | 3 months | HashedBit Innovation</h2>
       </div>
 
       <div className='mt-12 text-center'>
@@ -30,7 +30,7 @@ export default function About() {
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>CSS</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>JavaScript</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>React JS</button>
-          <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Bootstrap</button>
+          <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>SOCKET io</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Redux Toolkit</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Responsive Designs</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Node JS</button>

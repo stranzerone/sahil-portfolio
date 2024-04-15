@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaCss3, FaJs, FaNode, FaDatabase, FaReact } from 'react-icons/fa';
+import { SiTailwindcss } from "react-icons/si";
 
 function Skills() {
   return (
@@ -22,7 +23,7 @@ function Skills() {
           <span className="font-bold text-sm md:text-lg">JavaScript</span>
         </div>
         <div className="flex flex-col items-center justify-center h-28 rounded-md bg-yellow-200 my-3 mx-1 flex-grow">
-          <FaJs className="text-2xl mb-1" style={{ color: "#FFD43B" }} />
+          <SiTailwindcss className="text-2xl mb-1" style={{ color: "voilet" }} />
           <span className="font-bold text-sm md:text-lg">Bootstrap & Tailwind</span>
         </div>
 
