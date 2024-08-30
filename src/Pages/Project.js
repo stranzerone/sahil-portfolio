@@ -8,9 +8,48 @@ import crypto from '../Images/crypto.png';
 import codecells from '../Images/codecells.png';
 import tasks from '../Images/tasks.png';
 import chat from '../Images/chat.png'
-
+import school from '../Images/school.png'
+import maintaince from "../Images/maintaince.png"
 
 export const Projects = [
+  
+  
+  {
+    title: 'sell and buy source code',
+    description: 'You can succesfully pay and buy the source code here',
+    demoLink: 'codecells.in',
+    codeLink: 'https://usercard-code-link.com',
+    images: [codecells],
+    rating: '5',
+    deployedLink: 'https://usercard-deployed-link.com',
+  },
+  {
+    title: 'School Managment',
+    description: 'Login as Principal,Teacher,Student and follow your roles in school to run school',
+    demoLink: 'https://schoolfrontend-3k2f.onrender.com',
+    codeLink: 'https://github.com/stranzerone/schoolFrontend.git',
+    images: [school],
+    rating: '5',
+    deployedLink: 'https://weather-deployed-link.com',
+  },
+  {
+    title: 'Weather Check',
+    description: 'Get the latest weather updates with this project.',
+    demoLink: 'https://whetherforcast.onrender.com/',
+    codeLink: 'https://github.com/stranzerone/whetherForcast.git',
+    images: [weather],
+    rating: '5',
+    deployedLink: 'https://weather-deployed-link.com',
+  },
+  {
+    title: 'Maintaince Time Board',
+    description: 'Keep Updated Maintaince break Time ',
+    demoLink: 'https://factech-assignemnt.onrender.com',
+    codeLink: 'https://github.com/stranzerone/factech-assignemnt.git',
+    images: [maintaince],
+    rating: '5',
+    deployedLink: 'https://weather-deployed-link.com',
+  },
   {
     title: 'Tasks Dahboard',
     description: 'You can use it track tasks assigned to user ',
@@ -28,15 +67,7 @@ export const Projects = [
     rating: '5',
     deployedLink: 'https://usercard-deployed-link.com',
   },
-  {
-    title: 'sell and buy source code',
-    description: 'You can succesfully pay and buy the source code here',
-    demoLink: 'codecells.in',
-    codeLink: 'https://usercard-code-link.com',
-    images: [codecells],
-    rating: '5',
-    deployedLink: 'https://usercard-deployed-link.com',
-  },
+
   {
     title: 'Crypto Buying App',
     description: 'An app to buy and manage cryptocurrencies.',
@@ -46,15 +77,7 @@ export const Projects = [
     rating: '4',
     deployedLink: 'https://crypto-deployed-link.com',
   },
-  {
-    title: 'Weather Check',
-    description: 'Get the latest weather updates with this project.',
-    demoLink: 'https://wheathercheck.onrender.com/',
-    codeLink: 'https://weather-code-link.com',
-    images: [weather],
-    rating: '4',
-    deployedLink: 'https://weather-deployed-link.com',
-  },
+ 
   {
     title: 'Users Profile Cards',
     description: 'A project to display user profile cards.',

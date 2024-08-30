@@ -48,7 +48,7 @@ export default function ProjectCard() {
                   <FiCode className="mr-2" /> Code
                 </a>
               </div>
-              <p className="text-sm mx-1 text-gray-500"> {generateStarRating(project.rating)}</p>
+              <p className="text-sm mx-1 text-yellow-500"> {generateStarRating(project.rating)}</p>
             </div>
           </div>
         </div>

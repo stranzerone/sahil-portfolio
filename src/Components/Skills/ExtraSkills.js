@@ -13,7 +13,7 @@ export default function About() {
         <div className='flex flex-col space-y-4 text-center'>
           <h3 className='border-b-4 border-purple-500 text-xl font-semibold mb-4'>About Me</h3>
           <p className='text-lg text-gray-700'>
-            Hello! I'm Sahil, a web developer with a focus on the MERN stack. With two months of internship experience, I've honed my skills in building responsive web applications. I'm passionate about leveraging technology to solve problems and create meaningful user experiences.
+            Hello! I'm Sahil, a web developer with a focus on the <b>MERN STACK</b>. With <b>Three</b> months of internship experience, I've honed my skills in building responsive web applications. I'm passionate about leveraging technology to solve problems and create meaningful user experiences.
           </p>
         </div>
 
@@ -41,9 +41,11 @@ export default function About() {
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>MYSQL</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>REACT NATIVE</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>AUTHENTICATION</button>
-          <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Payment Gateways</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Bootstrap</button>
           <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Tailwind</button>
+          <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Core Java</button>
+          <button className='btn btn-danger py-2 px-4 rounded-full hover:bg-red-600 hover:text-white transition duration-300'>Spring Boot</button>
+
 
         </div>
       </div>

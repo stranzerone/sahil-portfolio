@@ -1,0 +1,36 @@
+/* Animation for the changing glowing border colors */
+@keyframes borderGlow {
+    0% {
+      border-color: #ff0000; /* Red */
+      box-shadow: 0 0 10px #ff0000;
+    }
+    25% {
+      border-color: #00ff00; /* Green */
+      box-shadow: 0 0 10px #00ff00;
+    }
+    50% {
+      border-color: #0000ff; /* Blue */
+      box-shadow: 0 0 10px #0000ff;
+    }
+    75% {
+      border-color: #ffff00; /* Yellow */
+      box-shadow: 0 0 10px #ffff00;
+    }
+    100% {
+      border-color: #ff00ff; /* Magenta */
+      box-shadow: 0 0 10px #ff00ff;
+    }
+  }
+  
+  .border-animated-glow {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ff0000; /* Initial color */
+    animation: borderGlow 5s linear infinite;
+  }
+  
+  /* Neon shadow effect */
+  .shadow-neon {
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8), 0 0 30px rgba(0, 255, 0, 0.6), 0 0 45px rgba(0, 255, 0, 0.4);
+  }
+  

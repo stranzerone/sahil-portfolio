@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,12 +15,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white">
-      <div className="container mx-auto px-4 py-4">
+<nav className="bg-gradient-to-r from-gray-800 to-black  text-white">
+        <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center ">
-          <Link to="/" className="text-3xl font-extrabold tracking-tight">
-            Sahil...
-          </Link>
+        <h2 className='lg:text-4xl text-lg md:text-2xl font-extrabold tracking-tight text-green-600 animate-text-color'>
+                    {"   < Sahil />"}
+                </h2>
           <button
             onClick={toggleMenu}
             className="lg:hidden text-2xl focus:outline-none"
